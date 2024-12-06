@@ -22,8 +22,8 @@ game.Players.LocalPlayer.Character.Humanoid.JumpPower = a
 print(a)
 end)
 
-tab2:CreateButton("Lag", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/6ce/Roblox-Hoopz-Server-Lagger/refs/heads/main/Main.lua'))()
+tab2:CreateButton("AntiLag", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/CVJjCr4b'))()
 end)
 
 ---WARING---
