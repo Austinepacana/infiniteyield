@@ -26,6 +26,24 @@ tab2:CreateButton("AntiLag", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/CVJjCr4b'))()
 end)
 
----WARING---
+---Toggle---
+
+tab1:CreateToggle("Toggle", function(state)
+if state then
+print("Enabled!")
+else
+print("Disabled!")
+end)
+
+tab2:CreateToggle("Toggle", function(state)
+if state then
+print("Enabled!")
+else
+print("Disabled!")
+end)
+
+---WARNING---
 
 tab1:CreateWarning("Warning")
+
+tab2:CreateWarning("Warning")
